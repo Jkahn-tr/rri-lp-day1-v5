@@ -40,7 +40,7 @@
     font-size: 16px;
     line-height: 1.85;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -1718,8 +1718,11 @@
 
   /* ── COPYRIGHT ── */
   #copyright {
-    width: 100%;
-    flex-shrink: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
     text-align: center;
     padding: 24px 32px;
     font-family: 'SuisseIntl', sans-serif;
