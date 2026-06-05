@@ -37,8 +37,8 @@
     color: var(--text);
     font-family: var(--font-ui);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.9;
+    font-size: 16px;
+    line-height: 1.85;
     display: flex;
     flex-direction: row;
     -webkit-font-smoothing: antialiased;
@@ -192,6 +192,8 @@
 
   /* ─── TYPOGRAPHY ─── */
   .section-title {
+    font-size: 30px !important;
+    font-weight: 600;
     font-family: var(--font-ui);
     font-weight: 300;
     font-size: 42px;
@@ -215,8 +217,8 @@
   .body-text {
     font-family: var(--font-ui);
     font-weight: 300;
-    font-size: 14px;
-    line-height: 1.9;
+    font-size: 16px;
+    line-height: 1.85;
     color: var(--secondary);
   }
 
@@ -247,8 +249,8 @@
   .letter-block p {
     font-family: var(--font-ui);
     font-weight: 300;
-    font-size: 14px;
-    line-height: 1.9;
+    font-size: 16px;
+    line-height: 1.85;
     color: var(--secondary);
     margin-bottom: 18px;
   }
@@ -375,8 +377,8 @@
   .generous-block p {
     font-family: var(--font-ui);
     font-weight: 300;
-    font-size: 14px;
-    line-height: 1.9;
+    font-size: 16px;
+    line-height: 1.85;
     color: var(--secondary);
     margin-bottom: 18px;
   }
@@ -481,7 +483,7 @@
   }
 
   .tony-ai-card .body-text {
-    font-size: 14px;
+    font-size: 16px;
     max-width: 480px;
   }
 
@@ -820,8 +822,8 @@
     color: var(--text);
     font-family: 'SuisseIntl', -apple-system, sans-serif;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 1.8;
+    font-size: 16px;
+    line-height: 1.85;
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -1051,7 +1053,7 @@
     font-family: Georgia, serif;
     font-style: italic;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 32px;
     color: var(--text);
     margin-bottom: 8px;
   }
@@ -1067,8 +1069,8 @@
   }
 
   .body-text {
-    font-size: 15px;
-    line-height: 1.8;
+    font-size: 16px;
+    line-height: 1.85;
     color: var(--secondary);
   }
 
@@ -1330,7 +1332,7 @@
   }
 
   .tony-ai-card .body-text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.7;
   }
 
@@ -1924,7 +1926,7 @@
   <div style="font-family:'SuisseIntl',sans-serif;font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#1A1612;margin-bottom:6px;">Tony and Sage Robbins</div>
   <div style="font-family:'SuisseIntl',sans-serif;font-size:9px;letter-spacing:4px;text-transform:uppercase;color:#A3905D;margin-bottom:36px;">Love and Passion</div>
   <div style="font-family:Georgia,serif;font-size:34px;color:#1A1612;margin-bottom:8px;">Ultimate Relationship</div>
-  <div style="font-family:'SuisseIntl',sans-serif;font-size:13px;color:#6B6259;margin-bottom:48px;">Day 1 &nbsp;&middot;&nbsp; Friday, September 25</div>
+  <div style="font-family:'SuisseIntl',sans-serif;font-size:13px;color:#4A4540;margin-bottom:48px;">Day 1 &nbsp;&middot;&nbsp; Friday, September 25</div>
   <input id="name-input" type="text" placeholder="Your first name" style="font-family:'SuisseIntl',sans-serif;font-size:16px;color:#1A1612;background:transparent;border:none;border-bottom:1px solid rgba(163,144,93,0.35);padding:10px 0;width:100%;max-width:260px;text-align:center;outline:none;margin-bottom:32px;" />
   <button onclick="startExperience()" style="font-family:'SuisseIntl',sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#C84B31;background:transparent;border:1px solid rgba(200,75,49,0.28);padding:13px 28px;cursor:pointer;border-radius:2px;">Begin &rarr;</button>
   <div style="font-family:'SuisseIntl',sans-serif;font-size:11px;color:rgba(107,98,89,0.4);margin-top:16px;">or <span onclick="startExperience()" style="cursor:pointer;text-decoration:underline;">continue as guest</span></div>
@@ -2038,7 +2040,7 @@
 
         <!-- 1b. Your Outcome -->
         <span class="eyebrow">Your Intention</span>
-        <h2 class="section-title" style="font-size:22px; margin-bottom:16px;">Your Outcome for the Weekend</h2>
+        <h2 class="section-title" style="font-size:28px; margin-bottom:16px;">Your Outcome for the Weekend</h2>
         <div class="field-block">
           <label class="field-label" for="outcome-field">What is your outcome for this weekend - and why is it a must for you?</label>
           <textarea id="outcome-field" placeholder="Write it here..." oninput="autoExpand(this); saveLS('outcome', this.value)"></textarea>
@@ -2048,7 +2050,7 @@
 
         <!-- 1c. Seasons -->
         <span class="eyebrow">Tony Robbins</span>
-        <h2 class="section-title" style="font-size:22px; margin-bottom:8px;">The Seasons of Relationship</h2>
+        <h2 class="section-title" style="font-size:28px; margin-bottom:8px;">The Seasons of Relationship</h2>
         <p class="body-text" style="margin-bottom:20px;">Every relationship moves through seasons. The wisdom isn't avoiding them - it's learning to navigate each one.</p>
 
         <div class="seasons-grid">
@@ -2078,7 +2080,7 @@
 
         <!-- 1d. Generous Lover -->
         <span class="eyebrow">The Theme of the Weekend</span>
-        <h2 class="section-title" style="font-size:22px; margin-bottom:16px;">The Generous Lover</h2>
+        <h2 class="section-title" style="font-size:28px; margin-bottom:16px;">The Generous Lover</h2>
 
         <div class="generous-block">
           <p>If there's a theme of this program that will get you through all the seasons, it's you deciding that you are the source of the love in your relationship. As long as you're trying to get it from somebody, you're operating out of scarcity - and scarcity never feels good. Doesn't feel good to you, doesn't feel good to the other.</p>
@@ -2180,7 +2182,7 @@
         <!-- Love Note -->
         <div class="love-note-block">
           <span class="eyebrow">For Your Partner</span>
-          <h2 class="section-title" style="font-size:22px; margin-bottom:16px;">Love Note to Your Beloved</h2>
+          <h2 class="section-title" style="font-size:28px; margin-bottom:16px;">Love Note to Your Beloved</h2>
           <p class="body-text" style="margin-bottom:16px;">What do you want your beloved to know tonight?</p>
           <textarea id="beloved" placeholder="Write here..." oninput="autoExpand(this); saveLS('beloved', this.value)"></textarea>
           <div class="btn-row">
